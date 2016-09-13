@@ -25,10 +25,7 @@ public class MainApp extends PApplet {
 		circulos.add(new Circulo(20, 400, height / 2, "h"));
 		circulos.add(new Circulo(15, 500, height / 2, "4t"));
 		circulos.add(new Circulo(25, 600, height / 2, "u"));
-		for (int j = 0; j < circulos.size(); j++) {
-			System.out.println(circulos.get(j));
-		}
-
+		
 	}
 
 	@Override
